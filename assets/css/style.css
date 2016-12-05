@@ -502,7 +502,8 @@ textarea::-ms-input-placeholder
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active {
     color: red;
     background-color: transparent;
 }
@@ -573,4 +574,42 @@ textarea::-ms-input-placeholder
 }
 .about-content .signature{
 	margin-top:50px;
+}
+
+
+
+.portfolio{
+	background: url(../img/homebg.jpg) no-repeat center top fixed;
+    background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	overflow: hidden;
+}
+
+.portfolio .title h3 {
+    color: #f1f1f1;
+}
+
+.portfolio-wrapper {
+    width: 100%;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.portfolio-item {
+    display: inline-block;
+    overflow: hidden;
+    width: 17%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-details {
+    width: 100%;
+}
+
+.portfolio-details img {
+    width: 100%;
 }
