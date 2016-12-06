@@ -613,3 +613,60 @@ textarea::-ms-input-placeholder
 .portfolio-details img {
     width: 100%;
 }
+
+
+
+.contact-details {
+    text-transform: uppercase;
+}
+
+.contact-details .contact-category {
+    margin-top: 30px;
+}
+
+.contact-details .contact-category h4 {
+    font-size: 25px;
+	font-family:'nexa_boldregular';
+}
+
+.contact-details .contact-category .mail h2 {
+    font-size: 50px;
+    font-family:'nexa_lightregular';
+}
+
+.contact-details .contact-category .phone h2 {
+    font-size: 40px;
+    font-family:'nexa_lightregular';
+}
+
+.contact-details .contact-category .social a {
+    font-size: 26px;
+    color: #202020;
+    border: 2px solid #202020;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+	margin: 10px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+	transition:.3s ease-in-out;
+	-webkit-transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+}
+
+.contact-details .contact-category .social a:hover {
+    color: red;
+}
+
+.copyright {
+    border-top: 1px solid #bebebe;
+    padding: 30px 0;
+}
+
+.copyright p {
+    color: #bebebe;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family:'nexa_lightregular';
+}
