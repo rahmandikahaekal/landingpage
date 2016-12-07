@@ -1,0 +1,105 @@
+/* Potrait Tablets and Medium Desktop */
+@media (min-width : 992px ) and (max-width : 1199px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Potrait Tablets and Small Desktop */
+@media (max-width : 991px ) {
+    html {
+        font-size: 90%:
+    }
+    .portfolio-item {
+        width: 45%;
+    }
+    .heading p {
+        line-height: 30px;
+    }
+    .about-content {
+        text-align: center;
+    }
+    .portfolio-wrapper {
+        margin: 0;
+    }
+    .contact-details .contact-category .mail h2 {
+        font-size: 40px;
+        font-family: 'nexa_lightregular';
+    }
+}
+
+/* Landscape Phone and Potrait Tablet */
+@media (max-width : 767px ) {
+    html {
+        font-size: 80%;
+    }
+    .navbar .navbar-header .navbar-toggle {
+        margin-top: 25px;
+    }
+    .home-details  .home-title h1 {
+        font-size: 35px;
+    }
+    .about-content {
+        text-align: center;
+    }
+    .portfolio-item {
+        width: 45%;
+    }
+    .contact-details .contact-category .mail h2 {
+        font-size: 40px;
+    }
+    .contact-details .contact-category .phone h2 {
+        font-size: 35px;
+    }
+    .heading p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+}
+
+/* Landscape Phone and Smaller */
+@media (max-width : 480px ) {
+    html {
+        font-size: 65%;
+    }
+	.home-details .home-title h1 {
+        font-size: 37px;
+	}
+	.scroll-down h5 {
+        font-size: 13px;
+	}
+	.portfolio-item {
+        width: 80%;
+        margin-left: 0px;
+	}
+    .contact-details .contact-category .mail h2 {
+        font-size: 20px;
+    }
+    .contact-details .contact-category .phone h2 {
+        font-size: 30px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+}   
+
+
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+    .home .wrapper .logo img {
+        width: 240px;
+    }
+    .home .home-details .home-title h1 {
+        font-size: 32px;
+    }
+    .contact-details .contact-category .mail h2 {
+        font-size: 16px;
+    }
+    .contact-details .contact-category .phone h2 {
+        font-size: 20px;
+    }
+}
